@@ -1,0 +1,6 @@
+{
+    "env": {
+        "webextensions": true
+    },
+    "extends": "eslint:recommended"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "firefox-ctrlnumber",
+  "version": "0.0.1",
+  "description": "Adds keyboard shortcut Ctrl+1 to switch to the first tab, Ctrl+2 to switch to the second, and so on. Ctrl+9 switches to the last tab.",
+  "main": "ctrlnumber.js",
+  "scripts": {
+    "test": "jsonlint -q *.json src/*.json && eslint . && web-ext lint -w --no-input -s src",
+    "build": "web-ext build --overwrite-dest --no-input -s src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbigailBuccaneer/firefox-ctrlnumber.git"
+  },
+  "author": "AbigailBuccaneer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbigailBuccaneer/firefox-ctrlnumber/issues"
+  },
+  "homepage": "https://github.com/AbigailBuccaneer/firefox-ctrlnumber#readme",
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "jsonlint": "^1.6.2",
+    "web-ext": "^2.2.2"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "author": "AbigailBuccaneer",
+  "background": {
+    "scripts": [
+      "ctrlnumber.js"
+    ]
+  },
+  "commands": {
+    "switch-tab-1": {
+      "description": "Switch to the first tab",
+      "suggested_key": {
+        "default": "Ctrl+1"
+      }
+    },
+    "switch-tab-2": {
+      "description": "Switch to the second tab",
+      "suggested_key": {
+        "default": "Ctrl+2"
+      }
+    },
+    "switch-tab-3": {
+      "description": "Switch to the third tab",
+      "suggested_key": {
+        "default": "Ctrl+3"
+      }
+    },
+    "switch-tab-4": {
+      "description": "Switch to the fourth tab",
+      "suggested_key": {
+        "default": "Ctrl+4"
+      }
+    },
+    "switch-tab-5": {
+      "description": "Switch to the fifth tab",
+      "suggested_key": {
+        "default": "Ctrl+5"
+      }
+    },
+    "switch-tab-6": {
+      "description": "Switch to the sixth tab",
+      "suggested_key": {
+        "default": "Ctrl+6"
+      }
+    },
+    "switch-tab-7": {
+      "description": "Switch to the seventh tab",
+      "suggested_key": {
+        "default": "Ctrl+7"
+      }
+    },
+    "switch-tab-8": {
+      "description": "Switch to the eighth tab",
+      "suggested_key": {
+        "default": "Ctrl+8"
+      }
+    },
+    "switch-tab-9": {
+      "description": "Switch to the last tab",
+      "suggested_key": {
+        "default": "Ctrl+9"
+      }
+    }
+  },
+  "description": "This extension adds keyboard shortcuts to switch tabs. Ctrl+1 switches to the first tab, Ctrl+2 switches to the second tab, and so on. Ctrl+9 switches to the last tab.",
+  "homepage_url": "https://github.com/AbigailBuccaneer/firefox-ctrlnumber#readme",
+  "manifest_version": 2,
+  "name": "Ctrl+Number to switch tabs",
+  "short_name": "Ctrl+Number",
+  "version": "0.0.1"
+}
