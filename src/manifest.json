@@ -66,5 +66,5 @@
   "manifest_version": 2,
   "name": "Ctrl+Number to switch tabs",
   "short_name": "Ctrl+Number",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
