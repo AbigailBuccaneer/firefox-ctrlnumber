@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/AbigailBuccaneer/firefox-ctrlnumber#readme",
   "devDependencies": {
-    "eslint": "^6.8.0",
+    "eslint": "^8.53.0",
     "jsonlint": "^1.6.3",
-    "web-ext": "^4.1.0"
+    "web-ext": "^7.8.0"
   }
 }

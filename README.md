@@ -8,5 +8,5 @@ This extension can be installed from the Firefox Add-ons site.
 
 ## Building from source
 
-    yarn install && yarn run test && yarn run build
+    bun install && bun run test && bun run build
     ls web-ext-artifacts/ # this directory now contains the extension .zip file
