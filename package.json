@@ -1,6 +1,6 @@
 {
   "name": "firefox-ctrlnumber",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Adds keyboard shortcut Ctrl+1 to switch to the first tab, Ctrl+2 to switch to the second, and so on. Ctrl+9 switches to the last tab.",
   "main": "ctrlnumber.js",
   "scripts": {
