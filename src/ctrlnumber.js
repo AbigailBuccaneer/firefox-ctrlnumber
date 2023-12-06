@@ -1,6 +1,6 @@
 browser.commands.onCommand.addListener(async function(command) {
     let idx = command.slice(-1) % 9 - 1;
-    const tabs = await browser.tabs.query({ currentWindow: true, hidden: false});
+    const tabs = await browser.tabs.query({ currentWindow: true, hidden: false, pinned: false});
     if (tabs.length <= idx) {
         idx = tabs.length - 1
     }
